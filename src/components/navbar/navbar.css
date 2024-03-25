@@ -20,6 +20,7 @@
     background: var(--whitecolorDeam);
     width: 100%;
     padding: 1rem;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
     z-index: 1000;
 
     .logo{
@@ -43,12 +44,20 @@
             height: max-content;
             width: 80%;
             border-radius: 1rem;
-            top: 6rem;
+            top: -500rem;
             left: 50%;
+            padding: 1rem;
             transform: translate(-50%);
             z-index: 2000;
             box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
             transition: .3s ease-in-out;
+        }
+        .activeNavbar{
+            top: 7rem;
+
+        }
+        .removeActive{
+            display: none;
         }
         .toggleNavbar{
             .icon{
