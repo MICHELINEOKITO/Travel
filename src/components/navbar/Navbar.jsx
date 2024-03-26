@@ -9,6 +9,7 @@ import { TbGridDots } from "react-icons/tb";
 const Navbar = () =>{
 
     const [active ,setActive] = useState('navbar');
+   
 
     // function to toggle navbar
  const showNav = () =>{
@@ -17,9 +18,9 @@ const Navbar = () =>{
  }
         // function to remove navbar
 
- const removeNav = () =>{
+ const removeNavbar = () =>{
 
-    setActive('active removeActive')
+    setActive('navbar')
  }
 
 
@@ -75,7 +76,7 @@ const Navbar = () =>{
 
                     </ul>
 
-                    <div onClick={removeNav} className="closeNavbar removeActive">
+                    <div onClick={removeNavbar} className="closeNavbar displayNone">
                         <IoIosCloseCircle className="icon"/>
 
                     </div>

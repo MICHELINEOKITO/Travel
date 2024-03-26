@@ -56,9 +56,7 @@
             top: 7rem;
 
         }
-        .removeActive{
-            display: none;
-        }
+       
         .toggleNavbar{
             .icon{
                 font-size: 25px;
